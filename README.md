@@ -1,2 +1,2 @@
 # fwdpress
-A starter setup for a WordPress install
+A starter theme for FWD WordPress projects
