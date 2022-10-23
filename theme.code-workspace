@@ -26,5 +26,6 @@
         "auto-rename-tag.activationOnLanguage": [
             "html", "xml", "php", "javascript"
         ],
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
 }
