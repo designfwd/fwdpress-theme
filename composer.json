@@ -1,0 +1,20 @@
+{
+    "name": "benjatron/fwdpress-theme",
+    "description": "Starter theme for WordPress",
+    "license": "GPL-2.0-or-later",
+    "type": "wordpress-theme",
+    "authors": [
+        {
+            "name": "Ben Davidson",
+            "email": "ben@bendavidson.me",
+            "homepage": "https://bendavidson.me",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "ben@bendavidson.me"
+    },
+    "require": {
+        "php": ">=8.0"
+    }
+}
