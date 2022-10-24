@@ -1,0 +1,60 @@
+{
+    "name": "fwdpress-theme",
+    "version": "1.0.0",
+    "description": "Starter theme for WordPress",
+    "main": "index.php",
+    "repository": "https://github.com/designfwd/fwdpress-theme.git",
+    "author": "benjatron <ben@bendavidson.me>",
+    "license": "GPL-2.0-or-later",
+    "private": true,
+    "scripts": {
+        "build": "webpack --env development",
+        "watch": "webpack --env development --watch",
+        "package": "webpack --env production"
+    },
+    "browserslist": {
+        "production": [
+            "defaults"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "dependencies": {
+        "@builder.io/partytown": "^0.7.1",
+        "instant.page": "^5.1.1",
+        "lazysizes": "^5.3.2",
+        "mmenu-light": "^3.2.0",
+        "swiper": "^8.4.4"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.19.6",
+        "@babel/preset-env": "^7.19.4",
+        "@typescript-eslint/eslint-plugin": "^5.40.1",
+        "@typescript-eslint/parser": "^5.40.1",
+        "babel-loader": "^8.2.5",
+        "caniuse-lite": "^1.0.30001423",
+        "css-loader": "^6.7.1",
+        "css-minimizer-webpack-plugin": "^4.2.2",
+        "eslint": "^8.26.0",
+        "eslint-plugin-editorconfig": "^4.0.2",
+        "eslint-plugin-react": "^7.31.10",
+        "eslint-webpack-plugin": "^3.2.0",
+        "mini-css-extract-plugin": "^2.6.1",
+        "postcss": "^8.4.18",
+        "postcss-loader": "^7.0.1",
+        "postcss-preset-env": "^7.8.2",
+        "postcss-scss": "^4.0.5",
+        "sass": "^1.55.0",
+        "sass-loader": "^13.1.0",
+        "style-loader": "^3.3.1",
+        "stylelint": "^14.14.0",
+        "stylelint-scss": "^4.3.0",
+        "stylelint-webpack-plugin": "^3.3.0",
+        "typescript": "^4.8.4",
+        "webpack": "^5.74.0",
+        "webpack-merge": "^5.8.0"
+    }
+}
