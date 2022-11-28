@@ -1,0 +1,89 @@
+{ "customSyntax": "postcss-scss", "plugins": ["stylelint-scss"], "rules": {
+            # @see https://stylelint.io/user-guide/rules
+
+            ##
+            # AVOID ERRORS
+            # You can avoid errors with these no rules.
+            ##
+
+            # Descending
+            # Disallow descending things with these no-descending rules.
+            no-descending-specificity: true,
+
+            # Duplicate
+            # Disallow duplicates with these no-duplicate rules.
+            declaration-block-no-duplicate-properties:
+                [true, { ignore: ["consecutive-duplicates"] }],
+            font-family-no-duplicate-names: true,
+            keyframe-block-no-duplicate-selectors: true,
+            no-duplicate-at-import-rules: true,
+
+            # Empty
+            # Disallow empty things with these no-empty rules.
+            block-no-empty: [true, { ignorre: ["comments"] }],
+            comment-no-empty: true,
+
+            # Invalid
+            # Disallow invalid syntax with these (sometimes implicit) no-invalid rules.
+            color-no-invalid-hex: true,
+            function-calc-no-unspaced-operator: true,
+            named-grid-areas-no-invalid: true,
+            no-invalid-double-slash-comments: true,
+            string-no-newline: true,
+
+            # Missing
+            # Disallow missing things with these no-missing rules.
+            custom-property-no-missing-var-function: true,
+            font-family-no-missing-generic-family-keyword: true,
+
+            # Unknown
+            # Disallow unknown things with these no-unknown rules.
+            annotation-no-unknown: true,
+            no-unknown-animations: true,
+            property-no-unknown: true,
+            selector-pseudo-class-no-unknown: true,
+            selector-pseudo-element-no-unknown: true,
+            selector-type-no-unknown: [true, { ignore: ["custom-elements"] }],
+            unit-no-unknown: true,
+
+            ##
+            # ENFORCE NON-STYLISTIC CONVENTIONS
+            # You can enforce non-stylistic conventions with these no and list rules.
+            # They are powerful rules for making your CSS consistent. You'll need to
+            # configure most of them to suit your needs.
+            ##
+
+            # Allowed, disallowed, & required
+            # Allow, disallow or require things with these allowed-list,
+            # disallowed-list, required-list and no rules.
+            length-zero-no-unit: true,
+
+            ##
+            # SCSS RULES
+            ##
+            scss/at-else-if-parentheses-space-before: "always",
+            scss/at-extend-no-missing-placeholder: true,
+            scss/at-function-parentheses-space-before: "never",
+            scss/at-mixin-argumentless-call-parentheses: "always",
+            scss/at-rule-no-unknown: true,
+            scss/dollar-variable-colon-newline-after:
+                ["always-multi-line", { disableFix: false }],
+            scss/dollar-variable-colon-space-after: "always-single-line",
+            scss/dollar-variable-colon-space-before: "never",
+            scss/dollar-variable-no-missing-interpolation: true,
+            scss/double-slash-comment-inline: "always",
+            scss/double-slash-comment-whitespace-inside" "always",
+            scss/comment-no-empty: true,
+            scss/declaration-nested-properties-no-divided-groups: true,
+            scss/dimension-no-non-numeric-values: true,
+            scss/function-color-relative: true,
+            scss/function-no-unknown: true,
+            scss/function-quote-no-quoted-strings-inside: true,
+            function-unquote-no-unquoted-strings-inside: true,
+            scss/map-keys-quotes: true,
+            scss/operator-no-newline-after: true,
+            scss/operator-no-newline-before: true,
+            scss/operator-no-unspaced: true,
+            scss/no-duplicate-mixins: true,
+            scss/no-global-function-names: true,
+        } }

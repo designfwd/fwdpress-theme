@@ -26,10 +26,23 @@
         "files.insertFinalNewline": true,
         "auto-rename-tag.activationOnLanguage": [
             "html",
-            "xml",
+            "javascript",
             "php",
-            "javascript"
+            "typescript",
+            "xml"
         ],
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "json.format.keepLines": false,
+        "colorize.languages": [
+            "css",
+            "html",
+            "javascript",
+            "json",
+            "php",
+            "scss",
+            "typescript",
+            "xml"
+        ],
+        "colorize.colorized_colors": ["ARGB", "HEXA", "HSL", "RGB"]
     }
 }

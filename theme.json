@@ -1,0 +1,146 @@
+{
+    "version": 2,
+    "settings": {
+        "color": {
+            "defaultGradients": false,
+            "defaultPalette": false,
+            "gradients": [
+                {
+                    "name": "Dark Blue to Fuchsia",
+                    "slug": "dark-blue-fuchsia",
+                    "gradient": "linear-gradient(0deg,hsla(214,84%,27%,1) 0%,hsla(336,84%,57%,1) 100%)"
+                },
+                {
+                    "name": "Dark Blue to Cyan to Gold",
+                    "slug": "dark-blue-cyan-gold",
+                    "gradient": "linear-gradient(0deg,hsla(214,84%,27%,1) 0%,hsla(183,100%,36%,1) 50%,hsla(43,94%,74%,1) 100%)"
+                },
+                {
+                    "name": "Dark Blue to Fuchsia to Gold",
+                    "slug": "dark-blue-fuchsia-gold",
+                    "gradient": "linear-gradient(0deg,hsla(214,84%,27%,1) 0%,hsla(336,84%,57%,1) 50%,hsla(43,94%,74%,1) 100%)"
+                }
+            ],
+            "palette": [
+                {
+                    "name": "Black",
+                    "slug": "black",
+                    "color": "hsla(0,0%,0%,1)"
+                },
+                {
+                    "name": "Dark Gray",
+                    "slug": "dark-gray",
+                    "color": "hsla(0,0%,65%,1)"
+                },
+                {
+                    "name": "Gray",
+                    "slug": "gray",
+                    "color": "hsla(0,0%,85%,1)"
+                },
+                {
+                    "name": "Light Gray",
+                    "slug": "light-gray",
+                    "color": "hsla(0,0%,90%,1)"
+                },
+                {
+                    "name": "Gray White",
+                    "slug": "gray-white",
+                    "color": "hsla(0,0%,95%,1)"
+                },
+                {
+                    "name": "White",
+                    "slug": "white",
+                    "color": "hsla(0,0%,100%,1)"
+                },
+                {
+                    "name": "Charcoal",
+                    "slug": "charcoal",
+                    "color": "hsla(0,1%,29%,1)"
+                },
+                {
+                    "name": "Dark Blue",
+                    "slug": "dark-blue",
+                    "color": "hsla(214,84%,27%,1)"
+                },
+                {
+                    "name": "Cyan",
+                    "slug": "cyan",
+                    "color": "hsla(183,100%,36%,1)"
+                },
+                {
+                    "name": "Fuchsia",
+                    "slug": "fuchsia",
+                    "color": "hsla(336,84%,57%,1)"
+                },
+                {
+                    "name": "Bluish Green",
+                    "slug": "bluish-green",
+                    "color": "hsla(160,86%,36%,1)"
+                },
+                {
+                    "name": "Coral",
+                    "slug": "coral",
+                    "color": "hsla(18,100%,66%,1)"
+                },
+                {
+                    "name": "Gold",
+                    "slug": "gold",
+                    "color": "hsla(43,94%,74%,1)"
+                },
+                {
+                    "name": "Light Purple",
+                    "slug": "light-purple",
+                    "color": "hsla(243,100%,69%,1)"
+                }
+            ]
+        },
+        "layout": {
+            "contentSize": "calc(100% - 4rem)",
+            "wideSize": "1100px"
+        },
+        "typography": {
+            "lineHeight": true,
+            "fontFamilies": [
+                {
+                    "name": "Mint Grotesk",
+                    "slug": "mint-grotesk",
+                    "fontFamily": "Mint Grotesk,serif",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Mint Grotesk",
+                            "fontWeight": "700",
+                            "fontStyle": "normal",
+                            "src": [
+                                "file:./assets/fonts/mint-grotesk-bold.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Mint Grotesk",
+                            "fontWeight": "700",
+                            "fontStyle": "italic",
+                            "src": [
+                                "file:./assets/fonts/mint-grotesk-bold-italic.woff2"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Vesterbro",
+                    "slug": "vesterbro",
+                    "fontFamily": "Vesterbro,Gastromond,serif",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Vesterbro",
+                            "fontWeight":
+                        }
+                    ]
+                },
+                {
+                    "name": "Work Sans",
+                    "slug": "work-sans",
+                    "fontFamily": "Work Sans,Helvetica Neue,Helvetica,Arial,sans-serif"
+                }
+            ]
+        }
+    }
+}
