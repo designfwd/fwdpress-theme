@@ -131,14 +131,70 @@
                     "fontFace": [
                         {
                             "fontFamily": "Vesterbro",
-                            "fontWeight":
+                            "fontWeight": "800",
+                            "fontStyle": "normal",
+                            "src": [
+                                "file:./assets/fonts/vesterbro-extrabold.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Vesterbro",
+                            "fontWeight": "800",
+                            "fontStyle": "italic",
+                            "src": [
+                                "file:./assets/fonts/vesterbro-extrabolditalic.woff2"
+                            ]
                         }
                     ]
                 },
                 {
                     "name": "Work Sans",
                     "slug": "work-sans",
-                    "fontFamily": "Work Sans,Helvetica Neue,Helvetica,Arial,sans-serif"
+                    "fontFamily": "Work Sans,Helvetica Neue,Helvetica,Arial,sans-serif",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Work Sans",
+                            "fontWeight": "700",
+                            "fontStyle": "normal",
+                            "src": ["file:./assets/fonts/worksans-bold.woff2"]
+                        },
+                        {
+                            "fontFamily": "Work Sans",
+                            "fontWeight": "700",
+                            "fontStyle": "italic",
+                            "src": [
+                                "file:./assets/fonts/worksans-bolditalic.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Work Sans",
+                            "fontWeight": "500",
+                            "fontStyle": "normal",
+                            "src": ["file:./assets/fonts/worksans-medium.woff2"]
+                        },
+                        {
+                            "fontFamily": "Work Sans",
+                            "fontWeight": "500",
+                            "fontStyle": "italic",
+                            "src": [
+                                "file:./assets/fonts/worksans-mediumitalic.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Work Sans",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "src": [
+                                "file:./assets/fonts/worksans-regular.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Work Sans",
+                            "fontWeight": "400",
+                            "fontStyle": "italic",
+                            "src": ["file:./assets/fonts/worksans-italic.woff2"]
+                        }
+                    ]
                 }
             ]
         }
